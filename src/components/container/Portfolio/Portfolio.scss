@@ -1,0 +1,168 @@
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+
+    @media screen and (max-width: 350px){
+    }
+    button {
+            color: #000;
+            background: #fff;
+            padding: 0.65rem 1rem;
+            border-radius: 10px;
+            font-size: 0.85rem;
+            text-transform: capitalize;
+            cursor: pointer;
+            border: none;
+            margin-top: 1rem;
+            font-family: "Poppins";
+            
+    
+            &.active {
+                background: rgb(76, 35, 221);
+                color: #fff;
+            }
+        }
+    }
+    .workImages {
+        margin-top: 5rem;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 1rem;
+        
+        @media screen and (max-width: 800px) {
+            grid-template-columns: repeat(2,1fr);
+        }
+        
+        @media screen and (max-width: 600px) {
+            grid-template-columns: 1fr;
+        }
+
+        .workImage {
+            width: 380px;
+            height: 250px;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+            @media screen and (max-width:600px) {
+                max-width: 350px;
+            }
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: fill;
+            }
+
+            .hoverLayer {
+                background: rgba(75, 35, 221, 0.959);
+                width: 100%;
+                height: 100%;
+                z-index: 5;
+                position: absolute;
+                top: 0;
+                left: 0;
+                display: flex;
+                flex-direction: column;
+                gap: 1.5rem;
+                justify-content: center;
+                align-items: center;
+                
+                a {
+                    width: 40px;
+                    height: 40px;
+                    background: rgba(255, 255, 255, 0.342);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 50%;
+                    svg {
+                        color: #fff;
+                        font-size: 1.5rem;
+                    }
+                }
+
+                .description {
+                    font-size: 12px;
+                    color: #fff;
+                    width: 80%;
+                    text-align: center;
+                }
+
+                .techs {
+                    display: flex;
+                    flex-direction: column;
+                    width: auto;
+                    ul {
+                        display: grid;
+                        grid-template-columns: repeat(3, 1fr);
+                        text-align: center;
+                        
+                        
+
+                        li {
+                            list-style: none;
+                            background-color: #fff;
+                            color: #000;
+                            padding: 0.45rem 0.50rem;
+                            border-radius: 10px;
+                            font-size: 0.70rem;
+                            font-weight: bold;
+                            text-transform: capitalize;
+                            margin: 2px;
+                        }
+                    }
+                }
+            }
+        }
+}
+
+.talk {
+    margin-top: 3rem;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 5px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+    .talk_left{
+
+        h3 {
+            font-size: 1.5rem;
+
+            span {
+                font-size: 3.5rem;
+                color: rgb(76, 35, 221);
+
+                @media screen and (max-width: 599px) {
+                    font-size: 2rem;
+                }
+
+                @media screen and (max-width: 360px) {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+    .talk_right {
+        align-self: flex-end;
+        margin-bottom: 1.5rem;
+        background: rgb(76, 35, 221);
+        padding: 0.65rem 1rem;
+        border-radius: 10px;
+        font-size: 0.85rem;
+         
+        a {
+            text-decoration: none;
+            color: #fff;
+            text-transform: capitalize;
+        }
+    }
+}
