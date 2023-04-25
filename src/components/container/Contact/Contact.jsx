@@ -31,12 +31,12 @@ const Contact = () => {
     
     emailjs.send("service_nil0nw8", "template_jhuk43c", templateParams, "_DBpxkySGvDCbDKhY")
     .then((response) => {
-      console.log("Email enviado!!!", response.status, response.text)
+      // console.log("Email enviado!!!", response.status, response.text)
       setfirstName('')
       setlastName('')
       setEmail('')
       setMessage('')
-      window.alert("Email enviado com sucesso... Obrigado")
+      window.alert("Email enviado com sucesso! Obrigado...")
     }, (error) => {
       console.log("ERRO: ", error)
     })
