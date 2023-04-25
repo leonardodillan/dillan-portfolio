@@ -1,5 +1,5 @@
 # dillan-portfolio
-Esse repositório é para hospedagem do Portfolio que estou venho trabalhando em React
+Esse repositório é para hospedagem do Portfolio que estou trabalhando em React
 
 Feito com JavaScript(React), Framer Motion, Sass, Nodejs.
 
