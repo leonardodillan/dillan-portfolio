@@ -1,14 +1,14 @@
-  import { FaHtml5, FaCss3, FaNodeJs, FaReact, FaSass, FaFigma, FaPhoneAlt, FaUser, FaMapMarkerAlt, FaPaperPlane, FaDribbble, FaInstagram, FaLinkedin, FaAws, FaGithub } from "react-icons/fa";
+import { FaHtml5, FaCss3, FaNodeJs, FaReact, FaSass, FaFigma, FaPhoneAlt, FaUser, FaMapMarkerAlt, FaPaperPlane, FaDribbble, FaInstagram, FaLinkedin, FaAws, FaGithub } from "react-icons/fa";
 import { DiJavascript1 } from "react-icons/di";
 import { SiTypescript } from "react-icons/si";
 import { BsMedium } from "react-icons/bs";
-import portfolio from "./assets/portfolio.jpg"
 import work1 from "./assets/work-individual.png";
 import work2 from "./assets/biotech.png";
 import work3 from "./assets/work3.png";
 import work4 from "./assets/work4.png";
 import work5 from "./assets/work5.png";
 import work6 from "./assets/workx.png";
+import work7 from "./assets/chat.png";
 
 
 
@@ -135,6 +135,15 @@ export const workImages = [
     category: "design",
     techs: ["Figma"],
     desc: "Design de página de uma aplicação relacionada à gastronomia asiática"
+  },
+  {
+    id: 7,
+    img: work7,
+    name: "project 7",
+    category: "web",
+    link: "https://github.com/leonardodillan/messenger-app",
+    techs: ["Next.js", "TypeScript", "Tailwind", "Prisma", "MongoDB"],
+    desc: "Chat com mensagens em tempo real"
   }
 ];
 
