@@ -9,6 +9,7 @@ import work4 from "./assets/work4.png";
 import work5 from "./assets/work5.png";
 import work6 from "./assets/workx.png";
 import work7 from "./assets/chat.png";
+import work8 from "./assets/todo-app.png";
 
 
 
@@ -144,6 +145,14 @@ export const workImages = [
     link: "https://github.com/leonardodillan/messenger-app",
     techs: ["Next.js", "TypeScript", "Tailwind", "Prisma", "MongoDB"],
     desc: "Chat com mensagens em tempo real"
+  },
+  {
+    id: 8,
+    name: "project 8",
+    category: "app",
+    link: "https://github.com/leonardodillan/todo-app.git",
+    techs: ["React Native"],
+    desc: "Lista to-do feito em React Native"
   }
 ];
 
