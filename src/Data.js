@@ -148,6 +148,7 @@ export const workImages = [
   },
   {
     id: 8,
+    img: work8,
     name: "project 8",
     category: "app",
     link: "https://github.com/leonardodillan/todo-app.git",
