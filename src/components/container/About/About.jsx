@@ -40,8 +40,8 @@ const About = () => {
           <p>
             Sou desenvolvedor front-end bastante apaixonado pelo que faço.
             Fortemente influenciado por artes visuais e digitais, música, cinema, e jogos.
-            Atualmente estou cursando Análise e Desenvolvimento de Sistemas pela SPTech e estou
-            trabalhando na Stefanini - Orbitall Payments como Desenvolvedor Front-End.
+            Atualmente estou cursando o último semestre em Análise e Desenvolvimento de Sistemas pela Faculdade de Tecnologia Bandeirantes e estou
+            trabalhando na Stefanini: Orbitall Payments como Desenvolvedor Front-End.
           </p>
           {bios.map(bio => {
             return (

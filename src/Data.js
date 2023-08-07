@@ -1,14 +1,13 @@
 import { FaHtml5, FaCss3, FaNodeJs, FaReact, FaSass, FaFigma, FaPhoneAlt, FaUser, FaMapMarkerAlt, FaPaperPlane, FaDribbble, FaInstagram, FaLinkedin, FaAws, FaGithub } from "react-icons/fa";
-import { DiJavascript1 } from "react-icons/di";
+
 import { SiTypescript } from "react-icons/si";
-import { BsMedium } from "react-icons/bs";
 import work1 from "./assets/work-individual.png";
 import work2 from "./assets/biotech.png";
 import work3 from "./assets/work3.png";
 import work4 from "./assets/work4.png";
 import work5 from "./assets/work5.png";
 import work6 from "./assets/workx.png";
-import work7 from "./assets/chat.png";
+import work7 from "./assets/chat-app.png";
 import work8 from "./assets/todo-app.png";
 
 
@@ -18,7 +17,7 @@ import { MdFileDownload } from "react-icons/md";
 // import { url } from "inspector";
 
 export const navLinks = ["home", "about", "skills", "portfolio", "contact"]
-
+ 
 
 export const socialIcons = [
 
@@ -116,7 +115,7 @@ export const workImages = [
     id: 4,
     img: work4,
     name: "project 4",
-    category: "app",
+    category: "design",
     techs: ["Figma"],
     desc: "Design app de plantas"
   },
@@ -142,7 +141,7 @@ export const workImages = [
     img: work7,
     name: "project 7",
     category: "web",
-    link: "https://github.com/leonardodillan/messenger-app",
+    link: "http://chat-app-dillan.vercel.app/",
     techs: ["Next.js", "TypeScript", "Tailwind", "Prisma", "MongoDB"],
     desc: "Chat com mensagens em tempo real"
   },
